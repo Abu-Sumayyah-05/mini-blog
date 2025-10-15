@@ -20,12 +20,12 @@ function PostDetails() {
   }, [id]);
 
   return (
-    <div className="container mx-auto p-6 bg-[#F5EBDD]">
+    <div className=" mx-auto py-10 p-6 bg-[#F5EBDD] h-[50%]">
   {post ? (
   <>
     <h1>{post.title}</h1>
     <p>{post.body}</p>
-    <Link to="/">← Back to Home</Link>
+    <Link to="/" className="bg-amber-600 top-[20px] p-2 rounded text-white relative">← Back to Home</Link>
   </>
 ) : (
   <p>Loading...</p>

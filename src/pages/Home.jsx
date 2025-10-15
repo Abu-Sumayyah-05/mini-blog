@@ -67,12 +67,12 @@ function Home() {
             {/* We'll display posts here */}
             {filteredPosts.map((post) => (
                 <div key={post.id} className="gap-10">
-                 <h2>{post.title}</h2>
-                 <p>{post.body.slice(0, 80)}...</p>
+                 <h2 className="text-white font-bold">{post.title}</h2>
+                 <p className="text-white font-bold">{post.body.slice(0, 80)}...</p>
                    {authors[post.userId] && (
         <p><strong>Author:</strong> {authors[post.userId].name}</p>
       )}
-                 <Link to={`/posts/${post.id}`} className="bg-amber-100  px-5 py-1 rounded mt-2">Read More</Link>
+                 <Link to={`/posts/${post.id}`} className="bg-black text-white top-[10px]  px-5 py-1 rounded font-bold relative">Read More</Link>
                 </div>
             ))}
         </div>
