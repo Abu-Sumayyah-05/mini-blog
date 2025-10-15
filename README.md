@@ -24,24 +24,6 @@ This is a simple **React blog application** that fetches posts and author detail
 
 
 
-### ⚙️ How to Run
-
-1. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-2. Start the development server:
-
-   ```bash
-   npm run dev
-   ```
-
-3. Open the app in your browser (usually at `http://localhost:5173`).
-
----
-
 ### 🧠 API Used
 
 * **Posts:** `https://jsonplaceholder.typicode.com/posts`
